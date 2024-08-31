@@ -1,0 +1,44 @@
+body {
+    font-size: 40px;
+    font-family: "Gill Sans", sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+} 
+
+h1{
+    position: relative;
+    margin: auto; 
+    width: 50%;
+    padding: auto;
+    text-align: center;
+    text-shadow: 1px 1px 5px white;
+}
+nav {
+    display: block;
+    background-color: rgba(8, 10, 10, 0.419);
+    margin: 0;
+    padding: 5px;
+    border-radius: 25px;
+    overflow: hidden;
+} 
+a, button {
+    float: right; 
+    padding: 10px; 
+    display: block;
+    margin: auto;
+}
+
+button {
+    display: block;
+    margin: auto;
+}
+
+#theme-toggle {
+    height: 60px;
+    margin-top: 10px;
+    background-color: rgba(255, 255, 255, 0.831);
+    border-radius: 25px; 
+    font-size: 30px;
+    text-align: center;
+    border: 2px solid  rgb(184, 204, 204);
+}
